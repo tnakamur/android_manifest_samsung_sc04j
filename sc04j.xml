@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!--
+    * target: SC-04J
+    * rom: TWRP Recovery Project
+    -->
+
+    <!-- Remote -->
+    <remote fetch="https://github.com/tnakamur" name="sc04j" />
+	
+    <!-- Device -->
+    <project name="android_device_samsung_sc04j" path="device/samsung/sc04j" remote="sc04j" revision="twrp" />
+
+    <!-- Kernel -->
+    <project name="android_kernel_samsung_sc04j" path="kernel/samsung/exynos7870" remote="sc04j" revision="twrp" />
+		
+</manifest>
